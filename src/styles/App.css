@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+}
+
+.App {
+  padding-top: 0;
+  background-color: var(--background);
+}
+
+.app-nav {
+  padding: 2.5rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.app-nav-search {
+  width: 35vw;
+}
+
+.app-nav-filter {
+  width: 15vw;
+}
+
+.app-nav span {
+  margin: 0.5em;
+}
+
+.search-box span {
+  margin: 1em;
+}
+
+@media screen and (max-width: 632px) {
+  .app-nav {
+    padding: 2rem 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .app-nav-search {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .app-nav-filter {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=App.css.map */

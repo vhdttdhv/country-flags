@@ -1,0 +1,25 @@
+.card-li {
+  list-style-type: none;
+  height: 100%;
+}
+.card-wrapper {
+  height: 100%;
+}
+.card-content {
+  flex: 1;
+}
+.card-header {
+  height: 5vh;
+}
+.card-img {
+  height: 25vh;
+}
+.card-text > * {
+  margin: 0.1em;
+  font-size: 0.8em;
+}
+@media screen and (max-width: 632px) {
+  .card-img {
+    height: 17vh;
+  }
+}

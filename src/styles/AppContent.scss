@@ -1,0 +1,13 @@
+.app-content-ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(min-content, max-content);
+  padding: 0 4em;
+  gap: 3rem;
+  height: max-content;
+}
+@media screen and (max-width: 632px) {
+  .app-content-ul {
+    grid-template-columns: 1fr;
+  }
+}

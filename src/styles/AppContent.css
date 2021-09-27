@@ -1,0 +1,21 @@
+.app-content-ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(-webkit-min-content, -webkit-max-content);
+  grid-auto-rows: minmax(min-content, max-content);
+  padding: 0 4em;
+  gap: 3rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+@media screen and (max-width: 632px) {
+  .app-content-ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=AppContent.css.map */
