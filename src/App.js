@@ -6,7 +6,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import AppContent from "./components/AppContent";
 import { useSelector, useDispatch } from "react-redux";
 import { changeFilter } from "./redux/filterSlice";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Detail from "./Detail";
 import { useEffect } from "react";
 import { changeTheme } from "./redux/themeSlice";
