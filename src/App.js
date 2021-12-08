@@ -107,6 +107,37 @@ function App() {
             </div>
 
             <AppContent />
+
+            <div>
+              <form
+                action="http://127.0.0.1:3001/"
+                method="post"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                  marginRight: "1rem",
+                }}
+              >
+                <textarea
+                  name="feedback"
+                  id="feedback"
+                  placeholder="Send me your feedback!"
+                  style={{
+                    color: "black",
+                    height: "100%",
+                    minHeight: "70px",
+                    minWidth: "200px",
+                  }}
+                ></textarea>
+                <button
+                  type="submit"
+                  style={{ height: "50%", margin: "0.5rem 0rem" }}
+                >
+                  <div style={{ color: "black" }}>Submit</div>
+                </button>
+              </form>
+            </div>
           </Route>
         </Switch>
       </div>
